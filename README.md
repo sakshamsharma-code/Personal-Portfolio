@@ -5,7 +5,7 @@ A sleek and responsive personal portfolio website built using **HTML, CSS, and J
 
 ## 🚀 Live Preview
 
-[🔗 Click here to view the live site](https://sakshamsharma-code.github.io/Personal-Portfolio/](https://sakshamsharma-code.github.io/Personal-Portfolio/)
+[🔗 Click here to view the live site](https://sakshamsharma-code.github.io/Personal-Portfolio/)
 
 
 ## 📋 Features
