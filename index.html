@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0efc6045d0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logos.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Web Designer</p>
+                <h1>Hi, I'm <span>Saksham</span><br>Sharma from JECRC</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/users.png" alt="Saksham Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a Frontend Designer, Video Editor, and Photographer, I thrive on combining creativity with
+                        technical expertise. I specialize in Designing responsive, visually appealing websites, ensuring
+                        seamless user experiences. My passion for Video Editing allows me to bring stories to life
+                        through dynamic visuals, while Photography lets me capture moments from unique perspectives.
+                        Together, these skills help me create engaging digital content that resonates with audiences.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tabs" id="skills">
+                        <ul>
+                            <li><span>Frontend Designer</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Video Editor</span><br>Professional Video Editing</li>
+                            <li><span>Photographer</span><br>Click Professional Photos</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Current</span><br>Web Development Training at Internshala</li>
+                            <li><span>2023-Current</span><br>Video Editor at Marvel Cart Club</li>
+                            <li><span>2023-Current</span><br>Photographer & Videographer at Marvel Cart Club</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2027</span><br>Pursuing B.Tech in IT from JECRC, Jaipur</li>
+                            <li><span>2023</span><br>12<sup>th</sup> from SVP Sr. Sec. School, Palsana</li>
+                            <li><span>2021</span><br>10<sup>th</sup> from Tagore Public School, Surajgarh</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Web Designer</h2>
+                    <p>As a web designer, I specialize in creating visually appealing and user-friendly websites that
+                        offer seamless navigation and memorable user experiences. I focus on clean, modern designs that
+                        not only look great but also enhance functionality and performance.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editor</h2>
+                    <p>As a skilled video editor, I bring creative visions to life by carefully crafting engaging and
+                        impactful content. My expertise lies in seamlessly blending footage, audio, and effects to tell
+                        compelling stories that resonate with audiences.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-camera"></i>
+                    <h2>Photographer</h2>
+                    <p>As a passionate photographer, I strive to capture the beauty in everyday moments and bring
+                        stories to life through my lens. My work ranges from stunning landscapes to candid portraits,
+                        always focusing on light, emotion, and composition.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpeg" alt="PG Website">
+                    <div class="layer">
+                        <h3>PG Website</h3>
+                        <p>This website allows you to search for PG's near you based on which city you are in</p>
+                        <a href="images/PGLife/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpeg" alt="Video Editing">
+                    <div class="layer">
+                        <h3>My Edited Videos</h3>
+                        <p>This showcases my work as a Video Editor. Here are some samples of my work.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpeg" alt="Photography">
+                    <div class="layer">
+                        <h3>Photo Captured by Me</h3>
+                        <p>This showcases my work as a Photographer. Here are some samples of my work.</p>
+                        <a href="https://www.instagram.com/clicksbysaksham/profilecard/?igsh=MTJpeXNra3A3Z2dvcQ=="><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> er.sakshamsharma@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 6378115697</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/GokeHuMzDbdjNDn2/"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/SakshamSharmaV?t=NW1cODAdP4qvr05XwLskXA&s=09"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/saksham_sharma_2111/profilecard/?igsh=NDJ5cjBwbjBseGp1"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/saksham-sharma-892269290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="copyright">
+        <p>Copyright &copy; Saksham Made with <i class="fa-solid fa-heart"></i> by Saksham </p>
+    </div>
+
+    <!-- JavaScript Section -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tabs");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tabs");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = "0";
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwC_rAvS2c1YQcaU74LVDIQkkameMoFMLpuLjm-UjLS2MW0ccKcYnWnS4zN1JlsnjMt-g/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
